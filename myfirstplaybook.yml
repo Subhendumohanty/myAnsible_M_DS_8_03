@@ -8,7 +8,12 @@
       state: present
 
 
-  - name: install tree 
+  - name: install tree on ubuntu nodes 
     apt: 
       name: tree 
       state: present 
+
+  - name: install wget on ubuntu nodes 
+    apt: 
+      name: wget 
+      state: present  
