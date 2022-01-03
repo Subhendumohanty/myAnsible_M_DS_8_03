@@ -2,7 +2,7 @@
 - hosts: all 
   become: yes
   tasks: 
-  - name: i want to install on only ansible ubuntu node 
+  - name: i want to install webserver on only ansible ubuntu node 
     apt: 
       name: apache2 
       state: present 
